@@ -3,6 +3,7 @@
 /**
  * _strspn - gets length of a prefix substring
  * @s: string to check
+ * @accept: string to check against
  *
  * Return: num of bytes of s in accept
  */
