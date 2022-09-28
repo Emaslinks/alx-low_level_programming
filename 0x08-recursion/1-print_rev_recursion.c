@@ -9,7 +9,7 @@ void _print_rev_recursion(char *s)
 	s = "lpa\0";
 
 	if (*s == '\0')
-		return;
+	    return;
 	s++;
 	_print_rev_recursion(s);
 	s--;
